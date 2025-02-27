@@ -1,0 +1,130 @@
+@import url('https://fonts.cdnfonts.com/css/dana');
+*{
+    font-family: 'dana', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+.graduates-section{
+    height: 521px;
+    width: 90%;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header-seeAll{
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    width: 960px;
+    margin: 0 auto 24px;
+}
+
+.header-seeAll a{
+    color: #ff6838;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    height: 23px;
+}
+
+.header-seeAll h3{
+    font-size: 18px;
+    font-weight: 700;
+    height: 26px;
+}
+
+.slider{
+    height: 449px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.slide{
+    height: 417px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.graduates-card{
+    border: 0.1px solid right white;
+    border-radius: 20px;
+    background-color: white;
+    width: 312px;
+    height: 417px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.graduated-image{
+    height: 244px;
+    width: 280px;
+    border-radius: 12px;
+}
+
+.linkedin-logo{
+    position: absolute;
+    top: 28px;
+    left: 28px;
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.student-name{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    margin-top: 20px;
+    height: 23px;
+    width: 280px;
+}
+
+.caption{
+    font-size: 15px;
+    font-weight: 500;
+    color: #1e1e1e;
+    height: 42px;
+    width: 280px;
+}
+
+.major-course{
+    height: 20px;
+    width: 280px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
+.major{
+    height: 20px;
+    width: 70px;
+    font-size: 14px;
+    font-weight: 600;
+    color:#ff6838;
+}
+
+.course{
+    font-size: 14px;
+    font-weight: 600;
+    height: 20px;
+    color: #ff6838;
+}
+
+.line{
+    color: #ffc2af;
+    height: 12px;
+    width: 0;
+    margin-left: 8px;
+    margin-right: 8px;
+}
